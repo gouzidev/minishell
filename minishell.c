@@ -1,6 +1,9 @@
 #include "minishell.h"
 
-
+void parse_cmd(char *cmd, t_gc *gc)
+{
+    
+}
 
 int main(int ac, char*av[], char *env[])
 {

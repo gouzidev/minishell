@@ -25,6 +25,10 @@ void				gc_push(t_gc **gc, void *data);
 t_gc				*gc_init(void);
 void				gc_clear(t_gc **gc);
 
-
+int	len(char *s1);
+int	count_words(char const *s1, char *sep);
+char	**handle_null_malloc(char const *s, char *sep, t_gc **gc);
+int	is_sep(char c, char *sep);
+char	**ft_split(char const *s, char *sep, t_gc **gc);
 
 #endif
